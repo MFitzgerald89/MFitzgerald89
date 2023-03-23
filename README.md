@@ -1,8 +1,7 @@
 ### Hi there 👋
 
 - 🌱 My name is Mike Fitzgerald
-- I’m currently learning full-stack software development at Actualize Coding School and I absolutely love it! :heart: :heart: :heart:
-- I am more passionate for Front-End than back, but I am enjoying learning both! :smiley: 
+- I’m currently learning full-stack software development at Actualize Coding School and I absolutely love it! :heart: :heart: :heart: 
 
 [<img align="left" alt="linked-in" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin./in/michealcfitzgerald/)
 -----------
