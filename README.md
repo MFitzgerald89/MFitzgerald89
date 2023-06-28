@@ -3,7 +3,7 @@
 - 🌱 My name is Mike Fitzgerald
 - I recently graduated from full-stack software development at Actualize Coding School and I absolutely love it! :heart: :heart: :heart: 
 
-[<img align="left" alt="linked-in" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin./in/michealcfitzgerald/)
+[<img align="left" alt="linked-in" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/michealcfitzgerald/)
 -----------
 -----------
 ## Expertise
@@ -17,3 +17,5 @@
 <img align="left" alt="node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
 
 <img align="left" alt="ruby" src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" />
+
+<img align="left" alt ="html" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
