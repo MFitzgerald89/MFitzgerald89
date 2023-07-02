@@ -1,9 +1,9 @@
 Sunday, July 2 7:06 AM
 
-Hi there! My name is Micheal and welcome to my GitHub Profile!
-
 | <a href="https://github.com/MFitzgerald89/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=MFitzgerald89&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/MFitzgerald89/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MFitzgerald89&layout=compact&theme=buefy&hide_border=true" /></a> |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+
+<img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" />
 
 ## [<img align="left" alt="linked-in" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/michealcfitzgerald/)
 
