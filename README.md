@@ -1,7 +1,6 @@
 ### Hi there 👋
 
-- 🌱 My name is Mike Fitzgerald
-- I recently graduated from full-stack software development at Actualize Coding School and I absolutely love it! :heart: :heart: :heart: 
+
 
 [<img align="left" alt="linked-in" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/michealcfitzgerald/)
 -----------
