@@ -1,0 +1,22 @@
+{
+  "name": "mfitzgerald89",
+  "version": "1.0.0",
+  "description": "Personal GitHub Profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "touch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MFitzgerald89/MFitzgerald89.git"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MFitzgerald89/MFitzgerald89/issues"
+  },
+  "homepage": "https://github.com/MFitzgerald89/MFitzgerald89#readme",
+  "dependencies": {
+    "mustache": "^4.2.0"
+  }
+}
