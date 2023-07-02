@@ -24,7 +24,6 @@
 
 <img align="left" alt="javascript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 
-
-
-
-[![](https://visitcount.itsvg.in/api?id=MFitzgerald89&label=Profile%20Views&color=0&icon=1&pretty=false)](https://visitcount.itsvg.in)
+<a href="https://visitcount.itsvg.in">
+  <img src="https://visitcount.itsvg.in/api?id=MFitzgerald89&label=Profile%20Views&color=0&icon=1&pretty=false" />
+</a>
