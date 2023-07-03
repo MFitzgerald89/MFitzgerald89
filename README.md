@@ -1,14 +1,10 @@
-Sunday, July 2 7:06 AM
+Monday, July 3 6:52 PM
 
-<a href="https://github.com/MFitzgerald89/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=MFitzgerald89&show_icons=true&include_all_commits=true&theme=buefy&hide=stars" alt="Mike's github stats" /></a>
-<a href="https://github.com/MFitzgerald89/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MFitzgerald89&layout=compact&theme=buefy" /></a>
+Hi there! My name is Micheal and welcome to my GitHub Profile.
 
-<img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" />
-
-## [<img align="left" alt="linked-in" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/michealcfitzgerald/)
-
----
-
+[<img align="left" alt="linked-in" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/michealcfitzgerald/)
+-----------
+-----------
 ## Expertise
 
 <img align="left" alt="react" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB" />
