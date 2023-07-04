@@ -29,8 +29,8 @@ jobs:
         run: node index.js
       - name: Commit and Push new README.md to the repository
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "M_Fitzgerald@usa.com"
+          git config --local user.name "MFitzgerald89"
           git add README.md
           git commit -m "Update README.md"
           git push origin main
