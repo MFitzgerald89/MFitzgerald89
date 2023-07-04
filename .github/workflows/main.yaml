@@ -28,8 +28,11 @@ jobs:
       - name: Generate README file
         run: node index.js
       - name: Commit and Push new README.md to the repository
-        uses: mikeal/publish-to-github-action@master
-        with:
-          branch: main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update README.md"
+          git push origin main
+          env:
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
