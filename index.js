@@ -1,6 +1,6 @@
 // index.js
-const Mustache = require("mustache");
-const fs = require("fs");
+import { render } from "mustache";
+import { readFile, writeFileSync } from "fs";
 const MUSTACHE_MAIN_DIR = "./main.mustache";
 /**
  * DATA is the object that contains all
@@ -28,10 +28,10 @@ let DATA = {
  * C - We create a README.md file with the generated output
  */
 function generateReadMe() {
-  fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
+  readFile(MUSTACHE_MAIN_DIR, (err, data) => {
     if (err) throw err;
-    const output = Mustache.render(data.toString(), DATA);
-    fs.writeFileSync("README.md", output);
+    const output = render(data.toString(), DATA);
+    writeFileSync("README.md", output);
   });
 }
 generateReadMe();
