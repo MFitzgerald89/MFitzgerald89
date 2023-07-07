@@ -1,5 +1,3 @@
-Monday, July 3 6:52 PM
-
 Hi there! My name is Micheal and welcome to my GitHub Profile.
 
 [<img align="left" alt="linked-in" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/michealcfitzgerald/)
