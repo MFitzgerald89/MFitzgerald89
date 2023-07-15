@@ -28,10 +28,10 @@ jobs:
 
       - name: Commit and Push new README.md to the repository
         run: |
-  git config --local user.email "M_Fitzgerald@usa.com"
-  git config --local user.name "MFitzgerald89"
-  git add README.md
-  git commit -m "Update README.md"
-  git push https://M_Fitzgerald@github.com/MFitzgerald89/MFitzgerald89.git HEAD:main
-env:
-  M_Fitzgerald: ${{ secrets.PAT_TOKEN }}
+          git config --local user.email "M_Fitzgerald@usa.com"
+          git config --local user.name "MFitzgerald89"
+          git add README.md
+          git commit -m "Update README.md"
+          git push https://M_Fitzgerald@github.com/MFitzgerald89/MFitzgerald89.git HEAD:main
+        env:
+          M_Fitzgerald: ${{ secrets.PAT_TOKEN }}
