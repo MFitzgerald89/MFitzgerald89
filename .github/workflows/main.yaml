@@ -35,4 +35,4 @@ jobs:
           git push https://github.com/MFitzgerald89/MFitzgerald89
           HEAD:main
         env:
-          M_Fitzgerald: ${{ secrets.PAT_TOKEN }}
+  M_Fitzgerald: ${{ secrets.PAT_TOKEN }}
