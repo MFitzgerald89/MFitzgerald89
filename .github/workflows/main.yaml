@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 */1 * * *"
+    - cron: "0 */12 * * *"
 
 jobs:
   build:
@@ -14,10 +14,10 @@ jobs:
     steps:
       - name: Checkout current repository to main branch
         uses: actions/checkout@v1
-      - name: Setup Node.js v19.8.1
+      - name: Setup Node.js v16
         uses: actions/setup-node@v1
         with:
-          node-version: "v19.8.1"
+          node-version: "16"
       - name: Cache dependencies and build outputs to improve workflow execution time.
         uses: actions/cache@v1
         with:
@@ -33,4 +33,4 @@ jobs:
           git config --local user.name "MFitzgerald89"
           git add README.md
           git commit -m "Update README.md"
-          git push origin main
+          git push origin/main
