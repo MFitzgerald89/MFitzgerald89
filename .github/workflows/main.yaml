@@ -14,20 +14,20 @@ jobs:
 steps:
 - uses: actions/checkout@v3
 - uses: actions/setup-node@v3
-with:
-  node-version: 16
-  cache: 'npm'
-  cache-dependency-path: subdir/package-lock.json
-  - run: npm ci
-  - run: npm test) }}
-- name: Install dependencies
-    run: npm install
-- name: Generate README file
-    run: node index.js
-- name: Commit and Push new README.md to the repository
-    run: |
-          git config --local user.email "M_Fitzgerald@usa.com"
-          git config --local user.name "MFitzgerald89"
-          git add README.md
-          git commit -m "Update README.md"
-          git push origin master
+    with:
+      node-version: 16
+      cache: 'npm'
+      cache-dependency-path: subdir/package-lock.json
+      - run: npm ci
+      - run: npm test) }}
+    - name: Install dependencies
+        run: npm install
+    - name: Generate README file
+        run: node index.js
+    - name: Commit and Push new README.md to the repository
+        run: |
+              git config --local user.email "M_Fitzgerald@usa.com"
+              git config --local user.name "MFitzgerald89"
+              git add README.md
+              git commit -m "Update README.md"
+              git push origin master
