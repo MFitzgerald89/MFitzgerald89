@@ -12,17 +12,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout current repository to main branch
-        uses: actions/checkout@v1
-      - name: Setup Node.js v16
-        uses: actions/setup-node@v1
-        with:
-          node-version: "16"
-      - name: Cache dependencies and build outputs to improve workflow execution time.
-        uses: actions/cache@v1
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-js-${{ hashFiles('package-lock.json') }}
+- uses: actions/checkout@v3
+- uses: actions/setup-node@v3
+  with:
+    node-version: 16
+    cache: 'npm'
+    cache-dependency-path: subdir/package-lock.json
+- run: npm ci
+- run: npm test
       - name: Install dependencies
         run: npm install
       - name: Generate README file
