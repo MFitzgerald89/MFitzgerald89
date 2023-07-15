@@ -33,4 +33,4 @@ jobs:
           git config --local user.name "MFitzgerald89"
           git add README.md
           git commit -m "Update README.md"
-          git push origin/main
+          git push origin main
