@@ -18,8 +18,8 @@ steps:
     node-version: 16
     cache: 'npm'
     cache-dependency-path: subdir/package-lock.json
-- run: npm ci
-- run: npm test) }}
+    - run: npm ci
+    - run: npm test) }}
   - name: Install dependencies
       run: npm install
   - name: Generate README file
