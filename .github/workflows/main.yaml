@@ -3,7 +3,7 @@ name: README build
 on:
   push:
     branches:
-      - main
+      - master
   schedule:
     - cron: "0 */12 * * *"
 
@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    steps:
+steps:
 - uses: actions/checkout@v3
 - uses: actions/setup-node@v3
   with:
@@ -19,7 +19,7 @@ jobs:
     cache: 'npm'
     cache-dependency-path: subdir/package-lock.json
 - run: npm ci
-- run: npm test
+- run: npm test) }}
       - name: Install dependencies
         run: npm install
       - name: Generate README file
@@ -30,4 +30,4 @@ jobs:
           git config --local user.name "MFitzgerald89"
           git add README.md
           git commit -m "Update README.md"
-          git push origin main
+          git push origin master
