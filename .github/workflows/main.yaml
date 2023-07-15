@@ -14,7 +14,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        repository: "MFitzgerald89/MFitzgerald89"
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
