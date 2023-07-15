@@ -32,6 +32,7 @@ jobs:
           git config --local user.name "MFitzgerald89"
           git add README.md
           git commit -m "Update README.md"
-          git push https://www.github.com/MFitzgerald89/MFitzgerald89.git HEAD:main
+          git push https://github.com/MFitzgerald89/MFitzgerald89
+          HEAD:main
         env:
           M_Fitzgerald: ${{ secrets.PAT_TOKEN }}
